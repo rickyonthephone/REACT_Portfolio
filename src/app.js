@@ -5,6 +5,7 @@ import MyNavbar from "./components/MyNavbar";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
@@ -13,15 +14,23 @@ function App() {
     <div className="App">
       <MyNavbar></MyNavbar>
     <Switch>
+
       <Route exact path="/">
         <AboutMe></AboutMe>
       </Route>
+
       <Route path="/portfolio">
         <Portfolio></Portfolio>
       </Route>
+
       <Route path="/contact">
         <Contact></Contact>
       </Route>
+
+      <Route path="/resume">
+        <Resume></Resume>
+      </Route>
+      
     </Switch>
     </div>
     </Router>
