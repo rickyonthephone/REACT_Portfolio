@@ -3,7 +3,7 @@ import Card from "../components/Card/Card"
 
 function Portfolio () {
     return (
-        <div id='section' id='portfolio'>
+        <div className='section' id='portfolio'>
             <div className='container'>
                 <div className='portfolioWrap'>
                     <h1>My Portfolio</h1>

@@ -1,0 +1,29 @@
+.footerWrap {
+    display: flex;
+    text-align: center;
+    width:100%;
+}
+.section {
+    max-width: 33.334%;
+    max-height: 100%;
+    flex:auto; 
+    flex-wrap: wrap;
+    
+}
+
+#github{
+    text-align: right;
+}
+
+#codepen{
+    text-align: left;
+}
+
+#linkedin{
+    text-align: center;
+}
+
+.image-responsive {
+    max-width: auto;
+    height: 35%;
+}

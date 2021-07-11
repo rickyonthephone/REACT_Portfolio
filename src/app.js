@@ -5,7 +5,7 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
     </Switch>
     </div>
     <div className="Footer">
-      <Footer></Footer>
+      <Footer />
     </div>
     </Router>
   );

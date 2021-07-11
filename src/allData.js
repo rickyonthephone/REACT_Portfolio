@@ -110,15 +110,15 @@ export default {
 
     social: [
         {
-            image: GitHubLogo,
+            ghimage: GitHubLogo,
             url: 'https://github.com/rickyonthephone'
         },
         {
-            image: LinkedInLogo,
+            liimage: LinkedInLogo,
             url: 'https://www.linkedin.com/in/richard-crippen-2b134a2/'
         },
         {
-            image: codepenLogo,
+            cpimage: codepenLogo,
             url: 'https://codepen.io/rickyonthephone'
         }
     ]
