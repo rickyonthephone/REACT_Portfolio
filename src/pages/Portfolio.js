@@ -13,12 +13,14 @@ function Portfolio () {
                     <div className='grid cards'>
 
                         {data.projects.map((project, index) => (
-                            <Card
+                            <Card 
                                 key={index}
                                 title={project.title}
                                 description={project.description}
                                 screenShot={project.screenShot}
                                 url={project.url}
+                                deployment={project.deployment}
+                                deploymentUrl={project.deploymentUrl}
                             ></Card>
                         ))}
                     </div>
