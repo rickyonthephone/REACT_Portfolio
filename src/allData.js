@@ -30,6 +30,7 @@ export default {
             description: 'Create a password generator that will randomly create a password between 8 and 25 characters for you and can include both upper and lower case letters, numbers, and special characters. The app uses JavaScript, HTML, and CSS to accomplish the goals',
             screenShot: PasswordGen,
             url: 'https://github.com/rickyonthephone/JavaScript_Password_Generator/tree/master/assets',
+            deployment:false,
             deploymentUrl:''
         },
         {
@@ -37,6 +38,7 @@ export default {
             description: 'Create a weather dashboard using a weather API and has the ability to search weather by city name. The app provides current weather data as well as a 5 day forecast for the selected city. The app highlights usage of a third party API, JavaScript/HTML/CSS, and uses local storage to save search data.',
             screenShot: WeatherApp,
             url: 'https://github.com/rickyonthephone/Weather_Dashboard',
+            deployment:false,
             deploymentUrl:''
         },
         {
@@ -44,6 +46,7 @@ export default {
             description: 'Create a simple calendar that allows users to save events for each hour of the work day.',
             screenShot: WorkDayScheduler,
             url: 'https://github.com/rickyonthephone/Work_Day_Scheduler',
+            deployment:false,
             deploymentUrl:''
         },
         {
@@ -51,6 +54,7 @@ export default {
             description: 'A food and beverage app that pulls recipes from the Spoonacular and thecocktaildb.com APIs that allows users to search for recipes based on type or cuisine as well as get a cocktail recipe with each search.',
             screenShot: HomeKitchenPro,
             url:'https://github.com/rickyonthephone/Project1Repo',
+            deployment:false,
             deploymentUrl:''
         },
         {
@@ -58,6 +62,7 @@ export default {
             description: 'This app was created to write and save personal notes. The app uses Express.js on the back end and this was my first app deployment using Heroku.',
             screenShot: NoteTaker,
             url:'https://github.com/rickyonthephone/NoteTaker123',
+            deployment: true,
             deploymentUrl:'https://rcnotetaker2021.herokuapp.com/'
         },
         {
@@ -65,7 +70,8 @@ export default {
             description:'App tracks workouts and allows you to add data to an existing work. Workout data is also graphed out for the last 7 days.',
             screenShot: FitnessTracker,
             url: 'https://github.com/rickyonthephone/Fitness_Tracking_App',
-            deployementUrl: 'https://trackmyfitnesstoday.herokuapp.com/?id=60d2b45fd1c378ad28718b31'
+            deployement: true, 
+            deploymentUrl: 'https://trackmyfitnesstoday.herokuapp.com/?id=60d2b45fd1c378ad28718b31'
         }
     ],
 

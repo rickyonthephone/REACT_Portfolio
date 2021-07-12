@@ -1,0 +1,12 @@
+.navTab {
+    margin-left: 50px;
+}
+
+
+.headerNav {
+    background-color: black;
+}
+
+.myName, .navTab {
+    color: white !important;
+}

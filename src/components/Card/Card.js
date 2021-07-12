@@ -1,8 +1,8 @@
-// import React from "react"
+import React from "react"
 
 const Card = ({ title, description, screenShot, url}) => {
     return (
-        <div className = 'infoCard'>
+        <div className = 'infoCard' style={{marginTop:25, border: '2px solid black', marginBottom: 10}}>
             <div className = 'cardContent'>
                 <h3 className = 'cardTitle'>{title}</h3>
                 <p className = 'cardDescription'>{description}</p>

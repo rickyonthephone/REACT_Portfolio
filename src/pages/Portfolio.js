@@ -1,14 +1,17 @@
+import { render } from "@testing-library/react"
 import data from "../allData"
 import Card from "../components/Card/Card"
+import "./styles.css"
 
 function Portfolio () {
     return (
-        <div className='section' id='portfolio'>
+        <div className='pageContent' id='portfolio'>
             <div className='container'>
                 <div className='portfolioWrap'>
                     <h1>My Portfolio</h1>
 
-                    <div className='grid'>
+                    <div className='grid cards'>
+
                         {data.projects.map((project, index) => (
                             <Card
                                 key={index}
@@ -16,7 +19,6 @@ function Portfolio () {
                                 description={project.description}
                                 screenShot={project.screenShot}
                                 url={project.url}
-                                deploymentUrl={project.deploymentUrl}
                             ></Card>
                         ))}
                     </div>
