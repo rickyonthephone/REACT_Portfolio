@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react"
 import data from "../allData"
 import Card from "../components/Card/Card"
-import "./styles.css"
+// import "./styles.css"
 
 function Portfolio () {
     return (

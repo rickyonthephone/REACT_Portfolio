@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import {Switch, BrowserRouter as Router, Link, Route} from "react-router-dom";
 import MyNavbar from "./components/Navbar/MyNavbar";
 import AboutMe from "./pages/AboutMe";

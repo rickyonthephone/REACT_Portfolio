@@ -10,7 +10,9 @@ const Card = ({ title, description, screenShot, url, deployment, deploymentUrl})
                 <p className = 'cardDescription'>{description}</p>
                 <img src={screenShot} className='screenShotImage'></img>
                 <br></br>
-                <a href={url} target='_blank' rel='undefined'>Check Out the Code!</a>            
+                <a href={url} target='_blank' rel='undefined'>Check Out the Code!</a> 
+                <br></br>
+                {deployment ? <a href={deploymentUrl} target='_blank' rel='undefined'>Check Out the Deployment!</a> : <></>}           
             </div>
         </div>
     )

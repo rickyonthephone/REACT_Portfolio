@@ -70,7 +70,7 @@ export default {
             description:'App tracks workouts and allows you to add data to an existing work. Workout data is also graphed out for the last 7 days.',
             screenShot: FitnessTracker,
             url: 'https://github.com/rickyonthephone/Fitness_Tracking_App',
-            deployement: true, 
+            deployment: true, 
             deploymentUrl: 'https://trackmyfitnesstoday.herokuapp.com/?id=60d2b45fd1c378ad28718b31'
         }
     ],
