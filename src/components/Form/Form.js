@@ -14,9 +14,9 @@ function ContactForm(){
                     </Form.Text>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3" controlId="aboutInfo">
               <Form.Label>Regarding:</Form.Label>
-                <Form.Control type="about" placeholder="What project would you like to start?" />
+                <Form.Control className='aboutInfo' type="about" placeholder="About your project..." />
             </Form.Group>
             <div className='submitButton'>
             <Button variant="primary" type="submit">
