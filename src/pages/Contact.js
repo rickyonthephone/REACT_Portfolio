@@ -1,6 +1,11 @@
+import ContactForm from '../components/Form/Form.js';
+
 function Contact() {
    return( <div>
-        Contact me using this information
+       <ContactForm>
+
+       </ContactForm>
+
     </div>)
 }
 

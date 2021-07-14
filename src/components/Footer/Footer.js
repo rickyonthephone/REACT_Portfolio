@@ -1,5 +1,3 @@
-import {Navbar, Nav} from "react-bootstrap";
-import {Link} from "react-router-dom";
 import "./FooterStyle.css"
 import githubLogo from "../../images/githubLogo.png"
 import linkedInLogo from "../../images/linkedInLogo.png"
