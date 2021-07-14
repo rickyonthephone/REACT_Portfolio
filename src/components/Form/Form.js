@@ -18,9 +18,11 @@ function ContactForm(){
               <Form.Label>Regarding:</Form.Label>
                 <Form.Control type="about" placeholder="What project would you like to start?" />
             </Form.Group>
+            <div className='submitButton'>
             <Button variant="primary" type="submit">
                 Submit
             </Button>
+            </div>
         </Form>
         </div>
     )
